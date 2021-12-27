@@ -1,0 +1,21 @@
+{
+  "name": "eduapi",
+  "version": "1.0.0",
+  "description": "Api Restful de sistemas educativo",
+  "main": "index.js",
+  "author": "Murilo Garcia",
+  "license": "MIT",
+  "scripts": { 
+    "dev": "nodemon src/server.js" 
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^7.0.0-alpha.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.3.0"
+  }
+}
