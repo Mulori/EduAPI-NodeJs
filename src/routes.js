@@ -8,7 +8,10 @@ routes.get('/edu', EduController.index);
 
 //Aqui coloca as rotas;
 routes.get('/user', UserController.UserByEmail);
+routes.get('/user/login', UserController.Login);
+
 routes.post('/user', UserController.CreateUser);
+
 
 
 module.exports = routes;
