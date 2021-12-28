@@ -5,7 +5,8 @@ class Token extends Model{
         super.init({
             token: DataTypes.STRING,
         },{
-            sequelize
+            sequelize,
+            tableName: 'tokens',
         })
     }
 }
