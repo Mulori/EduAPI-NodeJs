@@ -6,7 +6,8 @@
   "author": "Murilo Garcia",
   "license": "MIT",
   "scripts": { 
-    "dev": "nodemon src/server.js" 
+    "dev": "nodemon src/server.js", 
+    "start": "nodemon src/server.js"
   },
   "dependencies": {
     "express": "^4.17.2",
